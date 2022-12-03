@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {AccountService} from "../../services/account.service";
+import {Router} from "@angular/router";
+import {ToastrService} from "ngx-toastr";
 
 @Component({
   selector: 'app-nav',
@@ -13,7 +15,9 @@ export class NavComponent implements OnInit {
   // directly in the template
   // currentUser$: Observable<User | null> = of(null) // satisfy strict mode and assign value to observable
 
-  constructor(public accountService: AccountService) { } // public so template can use it
+  constructor(public accountService: AccountService,
+              private router: Router,
+              private toastr: ToastrService) { } // public so template can use it
 
   ngOnInit(): void {
 
@@ -21,15 +25,14 @@ export class NavComponent implements OnInit {
 
   login() {
     this.accountService.login(this.model).subscribe({
-      next: response => {
-        console.log(response) // remove me
-      },
-      error: error => console.log(error)
+      next: _ => this.router.navigateByUrl('/members'),
+      error: error => this.toastr.error(error.error)
     })
   }
 
   logout() {
     this.accountService.logout(); // removes user from LS
+    this.router.navigateByUrl('/')
   }
 
 }
