@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
-import {HttpClient} from "@angular/common/http";
+import {AccountService} from "./services/account.service";
+import {User} from "./models/user";
 
 @Component({
   selector: 'app-root',
@@ -8,16 +9,19 @@ import {HttpClient} from "@angular/common/http";
 })
 export class AppComponent implements OnInit {
   title = 'Woofs and Walks';
-  users: any;
 
-  constructor(private http: HttpClient) {}
+  constructor(private accountService: AccountService) {
+  }
 
   ngOnInit(): void {
-    this.http.get('https://localhost:5001/api/Users').subscribe({
-      next: response => this.users = response,
-      error: error => console.log(error),
-      complete: () => console.log('Request has completed')
-    })
+  this.setCurrentUser(); // set current user if in local storage
+  }
+
+  setCurrentUser() {
+    const userString = localStorage.getItem('user'); //could use ! to turn off type checking but a bit dodgy
+    if (!userString) return; // If no user in local storage exit method
+    const user: User = JSON.parse(userString); // else set user from LS
+    this.accountService.setCurrentUser(user);
   }
 
 
