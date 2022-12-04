@@ -6,6 +6,9 @@ import {MemberDetailComponent} from "./components/members/member-detail/member-d
 import {ListsComponent} from "./components/lists/lists.component";
 import {MessagesComponent} from "./components/messages/messages.component";
 import {AuthGuard} from "./guards/auth.guard";
+import {TestErrorComponent} from "./components/errors/test-error/test-error.component";
+import {NotFoundComponent} from "./components/errors/not-found/not-found.component";
+import {ServerErrorComponent} from "./components/errors/server-error/server-error.component";
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -16,7 +19,10 @@ const routes: Routes = [
       {path: 'lists', component: ListsComponent},
       {path: 'messages', component: MessagesComponent},
     ]},
-  {path: '**', component: HomeComponent, pathMatch: 'full'} // wild card - invalid route
+  {path: 'errors', component: TestErrorComponent},
+  {path: 'not-found', component: NotFoundComponent},
+  {path: 'server-error', component: ServerErrorComponent},
+  {path: '**', component: NotFoundComponent, pathMatch: 'full'} // wild card - invalid route
 ];
 
 @NgModule({
