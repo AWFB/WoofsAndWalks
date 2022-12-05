@@ -1,0 +1,192 @@
+[
+  {
+    "UserName": "Laura",
+    "Gender": "female",
+    "DateOfBirth": "1988-07-02",
+    "KnownAs": "Laura",
+    "Created": "2022-02-01",
+    "LastActive": "2022-06-21",
+    "Introduction": "Sunt esse aliqua ullamco in incididunt consequat commodo. Nisi ad esse elit ipsum commodo fugiat est ad. Incididunt nostrud incididunt nostrud sit excepteur occaecat.\r\n",
+    "DogName": "Bandit\r\n",
+    "DogBreed": "Mastiff",
+    "City": "Manchester",
+    "Country": "England",
+    "Photos": [
+      {
+        "Url": "https://images.dog.ceo/breeds/segugio-italian/n02090722_001.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "UserName": "Rebecca",
+    "Gender": "female",
+    "DateOfBirth": "1989-01-20",
+    "KnownAs": "Becca",
+    "Created": "2022-05-01",
+    "LastActive": "2022-09-10",
+    "Introduction": "Sunt esse aliqua ullamco in incididunt consequat commodo. Nisi ad esse elit ipsum commodo fugiat est ad. Incididunt nostrud incididunt nostrud sit excepteur occaecat.\r\n",
+    "DogName": "Oscar\r\n",
+    "DogBreed": "Dalmatian",
+    "City": "Jersey",
+    "Country": "UK",
+    "Photos": [
+      {
+        "Url": "https://images.dog.ceo/breeds/frise-bichon/5.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "UserName": "Alison",
+    "Gender": "female",
+    "DateOfBirth": "1969-10-02",
+    "KnownAs": "Milly",
+    "Created": "2022-02-01",
+    "LastActive": "2022-06-21",
+    "Introduction": "Sunt esse aliqua ullamco in incididunt consequat commodo. Nisi ad esse elit ipsum commodo fugiat est ad. Incididunt nostrud incididunt nostrud sit excepteur occaecat.\r\n",
+    "DogName": "Steve\r\n",
+    "DogBreed": "German Short haired pointer",
+    "City": "Manchester",
+    "Country": "England",
+    "Photos": [
+      {
+        "Url": "https://images.dog.ceo/breeds/havanese/00100trPORTRAIT_00100_BURST20191222103956878_COVER.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "UserName": "Chloe",
+    "Gender": "female",
+    "DateOfBirth": "1960-04-23",
+    "KnownAs": "Chloe",
+    "Created": "2022-08-01",
+    "LastActive": "2022-09-21",
+    "Introduction": "Sunt esse aliqua ullamco in incididunt consequat commodo. Nisi ad esse elit ipsum commodo fugiat est ad. Incididunt nostrud incididunt nostrud sit excepteur occaecat.\r\n",
+    "DogName": "Brian\r\n",
+    "DogBreed": "Cocker Spaniel",
+    "City": "Liverpool",
+    "Country": "England",
+    "Photos": [
+      {
+        "Url": "https://images.dog.ceo/breeds/spaniel-brittany/n02101388_5274.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "UserName": "Amy",
+    "Gender": "female",
+    "DateOfBirth": "2005-12-01",
+    "KnownAs": "Amy",
+    "Created": "2022-02-01",
+    "LastActive": "2022-06-21",
+    "Introduction": "Sunt esse aliqua ullamco in incididunt consequat commodo. Nisi ad esse elit ipsum commodo fugiat est ad. Incididunt nostrud incididunt nostrud sit excepteur occaecat.\r\n",
+    "DogName": "Rover\r\n",
+    "DogBreed": "Golden Retreiver",
+    "City": "Manchester",
+    "Country": "England",
+    "Photos": [
+      {
+        "Url": "https://images.dog.ceo/breeds/samoyed/n02111889_7042.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "UserName": "Antony",
+    "Gender": "male",
+    "DateOfBirth": "1985-12-01",
+    "KnownAs": "Ant",
+    "Created": "2022-10-17",
+    "LastActive": "2022-10-17",
+    "Introduction": "Sunt esse aliqua ullamco in incididunt consequat commodo. Nisi ad esse elit ipsum commodo fugiat est ad. Incididunt nostrud incididunt nostrud sit excepteur occaecat.\r\n",
+    "DogName": "Toaster\r\n",
+    "DogBreed": "Shoodle",
+    "City": "Liverpool",
+    "Country": "England",
+    "Photos": [
+      {
+        "Url": "https://images.dog.ceo/breeds/spaniel-sussex/n02102480_6229.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "UserName": "Kevin",
+    "Gender": "male",
+    "DateOfBirth": "1960-04-23",
+    "KnownAs": "Kev",
+    "Created": "2022-09-04",
+    "LastActive": "2022-10-16",
+    "Introduction": "Sunt esse aliqua ullamco in incididunt consequat commodo. Nisi ad esse elit ipsum commodo fugiat est ad. Incididunt nostrud incididunt nostrud sit excepteur occaecat.\r\n",
+    "DogName": "Rex\r\n",
+    "DogBreed": "Pug",
+    "City": "Derby",
+    "Country": "England",
+    "Photos": [
+      {
+        "Url": "https://images.dog.ceo/breeds/bulldog-english/jager-1.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "UserName": "Mark",
+    "Gender": "male",
+    "DateOfBirth": "1956-11-19",
+    "KnownAs": "Mark",
+    "Created": "2022-01-01",
+    "LastActive": "2022-10-01",
+    "Introduction": "Sunt esse aliqua ullamco in incididunt consequat commodo. Nisi ad esse elit ipsum commodo fugiat est ad. Incididunt nostrud incididunt nostrud sit excepteur occaecat.\r\n",
+    "DogName": "Charlie\r\n",
+    "DogBreed": "English Springer Spaniel",
+    "City": "York",
+    "Country": "England",
+    "Photos": [
+      {
+        "Url": "https://images.dog.ceo/breeds/affenpinscher/n02110627_6842.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "UserName": "Richard",
+    "Gender": "male",
+    "DateOfBirth": "1976-06-07",
+    "KnownAs": "Rich",
+    "Created": "2022-08-01",
+    "LastActive": "2022-09-01",
+    "Introduction": "Sunt esse aliqua ullamco in incididunt consequat commodo. Nisi ad esse elit ipsum commodo fugiat est ad. Incididunt nostrud incididunt nostrud sit excepteur occaecat.\r\n",
+    "DogName": "Bingo\r\n",
+    "DogBreed": "Border Collie",
+    "City": "Preston",
+    "Country": "England",
+    "Photos": [
+      {
+        "Url": "https://images.dog.ceo/breeds/terrier-wheaten/n02098105_2157.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "UserName": "Alex",
+    "Gender": "male",
+    "DateOfBirth": "1999-11-10",
+    "KnownAs": "Alex",
+    "Created": "2022-10-10",
+    "LastActive": "2022-08-04",
+    "Introduction": "Sunt esse aliqua ullamco in incididunt consequat commodo. Nisi ad esse elit ipsum commodo fugiat est ad. Incididunt nostrud incididunt nostrud sit excepteur occaecat.\r\n",
+    "DogName": "Muffin.\r\n",
+    "DogBreed": "Afghan Hound",
+    "City": "Bangor",
+    "Country": "Wales",
+    "Photos": [
+      {
+        "Url": "https://images.dog.ceo/breeds/pug/n02110958_16132.jpg",
+        "IsMain": true
+      }
+    ]
+  }
+]
